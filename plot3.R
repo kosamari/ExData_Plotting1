@@ -1,6 +1,6 @@
 # Load file as dataset 
-# this program assumes you have downloaded and added file under dataset dir.
-dataset <- read.table('dataset/household_power_consumption.txt', sep=';', header=TRUE,colClasses = c('character', 'character', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric'),na.strings='?')
+# this program assumes you have downloaded and added file in working dir.
+dataset <- read.table('household_power_consumption.txt', sep=';', header=TRUE,colClasses = c('character', 'character', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric', 'numeric'),na.strings='?')
 
 #change Date column as Date object
 dataset$Date<-as.Date(dataset$Date,"%d/%m/%Y")
