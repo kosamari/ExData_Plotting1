@@ -1,3 +1,6 @@
+## Edit
+All assignment has been added (both .R code and .png file). This program assumes you have downloaded and added file under dataset dir. Please set your working dir correctly before you run R code.
+
 ## Introduction
 
 This assignment uses data from
